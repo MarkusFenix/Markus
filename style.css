@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(255, 2, 242);
+}
+.block{
+    Width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.block1{
+    float: left;
+}
+
+.block2{
+    float: right;
+}
+
+.clear{
+    clear:both;
+}
+
+.logo{
+    text-align:center;
+}
+
+.container{
+    width: 100px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aquamarine;
+}
